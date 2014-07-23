@@ -52,4 +52,11 @@ class SlugifierTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals('hello'.SlugifierInterface::DEFAULT_DELIMITER.'world', $output);
     }
+
+    public function testSpecialCharactersSlugify()
+    {
+        $output = $this->slugifier->slugify('Hello `¬!"£$%^&*()_+=-][}{|\<,>.?/:;@\'~#World');
+
+        $this->assertEquals('hello'.SlugifierInterface::DEFAULT_DELIMITER.'world', $output);
+    }
 }
