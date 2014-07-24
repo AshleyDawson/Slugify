@@ -19,8 +19,7 @@ class Slugifier implements SlugifierInterface
 
         $text = trim($text, $delimiter);
 
-        if (function_exists('iconv'))
-        {
+        if (function_exists('iconv')) {
             $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
         }
 
