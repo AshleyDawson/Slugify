@@ -3,11 +3,13 @@ Installation
 
 You can install Slugify via Composer. To do that, simply require the package in your composer.json file like so:
 
+```json
 {
     "require": {
         "ashleydawson/slugify": "1.0.*"
     }
 }
+```
 
 Then run composer update to install the package.
 
