@@ -1,5 +1,10 @@
+Slugify
+=======
+
+[![Build Status](https://travis-ci.org/AshleyDawson/Slugify.svg)](https://travis-ci.org/AshleyDawson/Slugify)
+
 Installation
-============
+------------
 
 You can install Slugify via Composer. To do that, simply require the package in your composer.json file like so:
 
@@ -14,7 +19,7 @@ You can install Slugify via Composer. To do that, simply require the package in 
 Then run composer update to install the package.
 
 Basic Usage
-===========
+-----------
 
 Using slugify is easy - simply instantiate the slugifier service class and call the slugify method:
 
