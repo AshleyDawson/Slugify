@@ -11,7 +11,7 @@ You can install Slugify via Composer. To do that, simply require the package in 
 ```json
 {
     "require": {
-        "ashleydawson/slugify": "1.0.*"
+        "ashleydawson/slugify": "~1.0"
     }
 }
 ```

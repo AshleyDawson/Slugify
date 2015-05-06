@@ -3,6 +3,7 @@
     "type": "library",
     "description": "Lightweight slugify library",
     "keywords": ["slug", "slugify", "slugifier"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Ashley Dawson",
